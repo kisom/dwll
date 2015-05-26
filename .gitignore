@@ -1,0 +1,6 @@
+*.ali
+*.o
+.*.sw?
+hello/hello
+usehello/usehello
+compute/compute
