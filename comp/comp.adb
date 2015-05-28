@@ -25,3 +25,4 @@ begin
     Put(c);
     New_Line;
 end Comp;
+
