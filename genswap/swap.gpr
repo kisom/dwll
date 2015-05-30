@@ -1,0 +1,5 @@
+project Swap is
+    for Main use ("printswap.adb");
+    for Source_Dirs use (".", "lib");
+    for Object_Dir use "o";
+end Swap;

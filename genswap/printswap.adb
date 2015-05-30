@@ -3,17 +3,16 @@
 with Ada.Text_IO, Ada.Integer_Text_IO;
 use  Ada.Text_IO, Ada.Integer_Text_IO;
 
-with Generic_Swap;
-use  Generic_Swap;
+with GenericSwap;
 
 procedure PrintSwap is
-    procedure Swap is new Generic_Swap(Integer);
+    procedure Swap is new GenericSwap.Swap(Integer);
     A : Integer := 5;
     B : Integer := 7;
 begin
     Put("A: ");
     Put(A);
-    Put("B: ");
+    Put(", B: ");
     Put(B);
     New_Line;
 
@@ -21,7 +20,7 @@ begin
 
     Put("A: ");
     Put(A);
-    Put("B: ");
+    Put(", B: ");
     Put(B);
     New_Line;
 end PrintSwap;
